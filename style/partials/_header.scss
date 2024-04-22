@@ -1,0 +1,38 @@
+header {
+
+    background-image: url(/public/img/HelloIMG1669149393797.jpeg);
+    background-size: cover;
+    color: white;
+    height: 600px;
+
+}
+
+.container-lg .row {
+    justify-content: space-between;
+
+
+}
+
+.header-1 {
+    padding: 30px 15px
+}
+
+.container-lg .lista-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.row .img-1 {
+    width: 200px;
+
+
+}
+
+.button-inizia {
+    padding: 0 40px;
+    background-color: #FFC96B;
+    color: white;
+    min-height: 40px;
+}
