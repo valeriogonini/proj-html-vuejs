@@ -2,12 +2,9 @@
     <header>
         <div class="container-lg">
             <div class="row header-1">
-                <ul class="lista-1">
-                    <li>
-                        <a href=""><img class="img-1" src="/public/img/HelloIMG1669149314369.png" alt=""></a>
-                    </li>
-
-                </ul>
+                <div class="lista-1">
+                    <a href=""><img class="img-1" src="/public/img/HelloIMG1669149314369.png" alt=""></a>
+                </div>
                 <ul class="lista-1">
                     <li>
                         <a href="">Home</a>
@@ -27,6 +24,15 @@
                 </ul>
             </div>
         </div>
+        <section class="section-header">
+            <h1 class="title-header">MAKE A DIFFERENCE</h1>
+            <P>As long a poverty, injustice & inequality persist, none of us can truly rest</P>
+            <div class="button-header">
+                <button class="button-mission"><a href="">OUR MISSION</a> </button>
+                <button class="button-donate"><a href="">DONATE NOW</a></button>
+            </div>
+
+        </section>
     </header>
 </template>
 

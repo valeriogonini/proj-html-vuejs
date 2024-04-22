@@ -36,3 +36,39 @@ header {
     color: white;
     min-height: 40px;
 }
+
+.title-header {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.section-header {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button-mission {
+    background-color: transparent;
+    padding: 0 20px;
+    min-height: 40px;
+    color: white;
+    border: 1px solid white;
+    padding: 0 30px;
+}
+
+.button-donate {
+    background-color: transparent;
+    padding: 0 20px;
+    min-height: 40px;
+    color: #FFC96B;
+    border: 1px solid #FFC96B;
+    padding: 0 30px;
+}
+
+.button-header {
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    padding-right: 20p;
+    margin-top: 20px;
+}
