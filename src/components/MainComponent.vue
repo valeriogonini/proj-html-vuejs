@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="container-md">
+        <div class="container-lg">
             <div class="row">
                 <div class="w-70">
                     <h2>EVERY MOMENT COUNTS</h2>
@@ -11,7 +11,20 @@
                         laboriosam sit exercitationem, fuga illo.</p>
                     <button class="button-inizia">OUR MISSION</button>
                 </div>
-                <div class="w-30"></div>
+                <div class="w-30">
+                    <div class="m-10">
+                        <h3>2023</h3>
+                        <p>Volunteers worldwide</p>
+                    </div>
+                    <div class="m-10">
+                        <h3>132</h3>
+                        <p>Active projcts</p>
+                    </div>
+                    <div class="m-10">
+                        <h3>3.8M</h3>
+                        <p>Donated</p>
+                    </div>
+                </div>
             </div>
 
         </div>
