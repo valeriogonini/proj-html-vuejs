@@ -6,18 +6,7 @@
                     <a href=""><img class="img-1" src="/public/img/HelloIMG1669149314369.png" alt=""></a>
                 </div>
                 <ul class="lista-1">
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">Mission</a>
-                    </li>
-                    <li>
-                        <a href="">Causes</a>
-                    </li>
-                    <li>
-                        <a href="">Journal</a>
-                    </li>
+                    <li v-for="(navs, i) in nav"><a href="">{{ navs }}</a></li>
                     <li>
                         <button class="button-inizia"><a href="">Donate</a></button>
                     </li>
@@ -39,7 +28,18 @@
 
 <script>
 export default {
+    data() {
+        return {
+            nav: {
+                home: 'Home',
+                mission: 'Mission',
+                causes: 'Causes',
+                jornal: 'jornaul'
+            }
 
+
+        }
+    }
 }
 </script>
 
